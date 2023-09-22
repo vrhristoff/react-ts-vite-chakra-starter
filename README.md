@@ -1,4 +1,4 @@
-# React * Typescript * Vite * Chakra * Vitest
+# React ** Typescript ** Vite ** Chakra ** Vitest
 
 ## Description
 
@@ -23,19 +23,19 @@ Open [http:localhost:5173](http://localhost:5173) to view it in your browser
 
 ### `yarn test` or `yarn run test`
 
-Launches the test runner in the interactive watch mode
+Checks the project with ESLint and launches the test runner with coverage report.
+
+### `yarn test:watch` or `yarn run test:watch`
+
+Launches the test runner in interactive watch mode.
+
+### `yarn test:coverage` or `yarn run test:coverage`
+
+Launches the test runner with coverage report.
 
 ### `yarn build` or `yarn run build`
 
 Creates a production build of the application
-
-### `yarn test` or `yarn run test`
-
-Run all tests with Vitest runner
-
-### `yarn test:coverage` or `yarn run test:coverage`
-
-Run all tests with Vitest and get coverage metrics
 
 ## Optional setup
 
