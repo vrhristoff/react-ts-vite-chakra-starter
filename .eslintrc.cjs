@@ -8,7 +8,6 @@ module.exports = {
         'plugin:react-hooks/recommended',
         'plugin:react/jsx-runtime',
         'prettier',
-        'react-app/jest',
     ],
     ignorePatterns: ['dist', '.eslintrc.cjs'],
     parser: '@typescript-eslint/parser',
@@ -22,5 +21,10 @@ module.exports = {
     rules: {
         'react-hooks/exhaustive-deps': 'warn',
         'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+    },
+    settings: {
+        react: {
+            version: 'detect',
+        },
     },
 };
