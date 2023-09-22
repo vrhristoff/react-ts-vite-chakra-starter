@@ -1,4 +1,10 @@
-# React * Typescript * Vite * Chakra * Vitest * Starter project
+# React * Typescript * Vite * Chakra * Vitest
+
+## Description
+
+This is a starter project with preconfigured with Vite, React, Typescript, Chakra UI
+
+Testing is preconfigured with Vitest and React Testing Library
 
 ## Setup
 
